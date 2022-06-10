@@ -21,6 +21,8 @@ pub enum AddressingMode {
 
 pub type Opcode = u8;
 
+// TODO: 
+// - [ ] byte may be unused.
 #[derive(Debug, PartialEq)]
 pub struct OpcodeInfo {
     pub byte: u8,
